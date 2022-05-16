@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MPII">
         <activity
+            android:name=".Activity3"
+            android:exported="false"
+            android:label="@string/title_activity_3"
+            android:theme="@style/Theme.MPII" />
+        <activity
             android:name=".Activit2"
             android:exported="false"
             android:label="@string/title_activity_activit2"

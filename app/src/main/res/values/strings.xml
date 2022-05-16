@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MPII</string>
     <string name="title_activity_activit2">Activit2</string>
+    <string name="title_activity_3">Activity3</string>
 </resources>

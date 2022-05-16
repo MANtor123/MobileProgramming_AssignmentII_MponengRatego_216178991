@@ -53,11 +53,12 @@ class Activit2 : ComponentActivity() {
 
                     {
                         TextButton(
-                            onClick = { },
+                            onClick = { val nave= Intent(this@Activit2 ,Activity3::class.java)
+                                startActivity(nave) },
                             border = BorderStroke(10.dp, Color.White),
                             contentPadding = PaddingValues(16.dp),
                             modifier = Modifier.size(width = 300.dp, height = 70.dp)
-                                .background(Color.Cyan),
+                                .background(Color.Blue),
                         ) {
                             Text(text = "Current module", color = Color.Black)
                         }
@@ -79,7 +80,7 @@ class Activit2 : ComponentActivity() {
                             border = BorderStroke(10.dp, Color.White),
                             contentPadding = PaddingValues(16.dp),
                             modifier = Modifier.size(width = 400.dp, height = 70.dp)
-                                .background(Color.Cyan),
+                                .background(Color.Blue),
                         ) {
                             Text(text = "Back", color = Color.Black)
                         }

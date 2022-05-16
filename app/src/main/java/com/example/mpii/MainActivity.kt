@@ -70,7 +70,7 @@ class MainActivity : ComponentActivity() {
                         TextButton(
                             onClick = { val gate= Intent(this@MainActivity,Activit2::class.java)
                                 startActivity(gate)},
-                            border = BorderStroke(10.dp, androidx.compose.ui.graphics.Color.White),
+                            border = BorderStroke(10.dp, color = White),
                             contentPadding = PaddingValues(16.dp),
                             modifier = Modifier.size(width = 400.dp, height = 70.dp)
                                 .background(androidx.compose.ui.graphics.Color.Cyan),
